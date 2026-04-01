@@ -1,0 +1,20 @@
+{
+  "name": "telegram-tts-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram TTS Bot with Telegraf",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-tts-api": "^2.0.2",
+    "telegraf": "^4.15.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
